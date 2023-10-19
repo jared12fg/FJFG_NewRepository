@@ -10,10 +10,10 @@ function Login({handleLogin}) {
   const handleSubmit  = (e) => {
     e.preventDefault();
 
-    if (username === 'Jared' && password === '321') {
+    if (username === 'Jared@gmail.com' && password === '321') {
       handleLogin();
     } else {
-      alert('Credenciales inválidas. Inténtalo de nuevo.');
+      alert('Inténtalo de nuevo.');
     }
   };
   
@@ -22,10 +22,10 @@ function Login({handleLogin}) {
       <div className="col-md-6">
         <div className="card cardEnd">
           <div className="card-body">
-            <h1 className="ma card-title mb-5 text-center">Iniciar sesión</h1>
+            <h1 className="ma card-title mb-5 text-center">Inicio de sesion</h1>
             <form>
               <div className="mb-5">
-                <label htmlFor="email" className="form-label">Correo electrónico</label>
+                <label htmlFor="email" className="form-label">Correo</label>
                 <input type="text" className="form-control" value={username} onChange={(e) => setUsername(e.target.value)}/>
               </div>
               <div className="mb-5">

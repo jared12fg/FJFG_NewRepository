@@ -19,7 +19,7 @@ function Navbar() {
           <Link to="#" className="menu-bars">
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
-          <h2>Menú Principal</h2>
+          <h2>Pagina principal</h2>
         </div>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <ul className="nav-menu-items" onClick={showSidebar}>
@@ -40,7 +40,7 @@ function Navbar() {
             })}
           </ul>
         </nav>
-        <h1 className="prop">Menu</h1>
+        <h1 className="uno">Pagina principal</h1>
       </IconContext.Provider>
     </>
   );
